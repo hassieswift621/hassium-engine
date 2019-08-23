@@ -11,7 +11,7 @@ The engine is composed of five core systems: Collision, Input, Load, Render, Upd
 It is also composed of two component managers: Entity, Scene.
 
 An entity inherits the abstract entity class and can implement multiple interfaces based on the behaviours it requires: 
-ICollidable, IEventListener\<T>, ILoadable, IRenderOrderChangeable, IRenderable, IUpdatable.
+``ICollidable``, ``IEventListener<T>``, ``ILoadable``, ``IRenderOrderChangeable``, ``IRenderable``, ``IUpdatable``.
 
 The engine provides higher level features by building on top of MonoGame's lower level framework components such as: scene management, 
 the ability to run multiple scenes which can all be in different states, friendlier to use input listeners and implementations of 
