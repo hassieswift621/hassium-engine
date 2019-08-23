@@ -3,7 +3,7 @@
 A C# game engine built on top of MonoGame, which was developed myself for my uni games engineering team project, to support the creation 
 of 2D/2D isometric games using OOP SOLID principles.
 
-The engine design is influenced by an ECS (entity-component-system) game engine architecture to aid with SOLID principles, 
+The design of the engine is influenced by an ECS (entity-component-system) game engine architecture to aid with SOLID principles, 
 but is not an actual ECS engine.
 
 The engine is composed of five core systems: Collision, Input, Load, Render, Update.
@@ -17,9 +17,7 @@ The engine provides higher level features by building on top of MonoGame's lower
 the ability to run multiple scenes which can all be in different states, friendlier to use input listeners and implementations of 
 collision detection.
 
-The engine isn't production ready, but it does work as we were able to build our 2D isometric game on it without any issues.
-
-Final Grade: A
+The engine isn't necessarily production ready, but it does work as we were able to build our 2D isometric game on it without any issues.
 
 ## License
 Copyright &copy;2019 Hassie.
