@@ -20,7 +20,8 @@ collision detection.
 The engine isn't necessarily production ready, but it does work as we were able to build our 2D isometric game on it without any issues.
 
 ## License
-Copyright &copy;2019 Hassie.
+```
+Copyright ©2019 Hassie.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -33,3 +34,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+```
