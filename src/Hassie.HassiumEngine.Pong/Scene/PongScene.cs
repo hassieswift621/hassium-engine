@@ -32,17 +32,17 @@ namespace Hassie.HassiumEngine.Pong.Scene
                 ball.DirectionX = 1;
                 ball.DirectionY = 1;
                 ball.VelocityX = 2.5f;
-                ball.VelocityY = 1;
+                ball.VelocityY = 2.5f;
                 AddEntity(ball);
 
                 // Create player one paddle.
-                Paddle paddleA = (Paddle)entityProvider.RequestEntity<Paddle>(new Vector3(0, (Game.GameHeight / 2) - 150, 0));
+                Paddle paddleA = (Paddle)entityProvider.RequestEntity<Paddle>(new Vector3(0, (Game.GameHeight / 2) - 75, 0));
                 paddleA.PlayerIndex = 1;
                 AddEntity(paddleA);
 
                 // Create player two paddle.
                 Paddle paddleB = (Paddle)entityProvider.RequestEntity<Paddle>(
-                    new Vector3(Game.GameWidth - 50, (Game.GameHeight / 2) - 150, 0));
+                    new Vector3(Game.GameWidth - 50, (Game.GameHeight / 2) - 75, 0));
                 paddleB.PlayerIndex = 2;
                 AddEntity(paddleB);
             }
