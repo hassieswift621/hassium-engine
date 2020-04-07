@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A8FF6483-C97
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hassie.HassiumEngine", "src\Hassie.HassiumEngine\Hassie.HassiumEngine.csproj", "{7F59BCD3-3EAA-45FB-AAF3-B3D7728F7292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hassie.HassiumEngine.Pong", "src\Hassie.HassiumEngine.Pong\Hassie.HassiumEngine.Pong.csproj", "{B68A08B3-B84E-4B3F-ADCA-B069F9BACD0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{7F59BCD3-3EAA-45FB-AAF3-B3D7728F7292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F59BCD3-3EAA-45FB-AAF3-B3D7728F7292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F59BCD3-3EAA-45FB-AAF3-B3D7728F7292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68A08B3-B84E-4B3F-ADCA-B069F9BACD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68A08B3-B84E-4B3F-ADCA-B069F9BACD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68A08B3-B84E-4B3F-ADCA-B069F9BACD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68A08B3-B84E-4B3F-ADCA-B069F9BACD0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7F59BCD3-3EAA-45FB-AAF3-B3D7728F7292} = {A8FF6483-C97B-4ACC-8A09-DCB2D1FEFEDE}
+		{B68A08B3-B84E-4B3F-ADCA-B069F9BACD0E} = {A8FF6483-C97B-4ACC-8A09-DCB2D1FEFEDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9DA2FC56-85FE-49D7-A9B1-BE3300802088}
