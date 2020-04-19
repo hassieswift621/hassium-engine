@@ -31,9 +31,6 @@ namespace Hassie.HassiumEngine.Render
             // Store graphics device manager.
             this.graphicsDeviceManager = graphicsDeviceManager;
 
-            // Render at 60FPS - turn off Vsync.
-            this.graphicsDeviceManager.SynchronizeWithVerticalRetrace = false;
-
             // On graphics device creation, run the event.
             this.graphicsDeviceManager.DeviceCreated += GraphicsDeviceManager_DeviceCreated;
         }

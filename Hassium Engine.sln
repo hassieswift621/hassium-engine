@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D25E01E0-1162-4081-9977-80B6D610F048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hassie.HassiumEngine.Pong", "Hassie.HassiumEngine.Pong\Hassie.HassiumEngine.Pong.csproj", "{20AA164A-C68E-4954-B642-9DDDD2480052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hassie.HassiumEngine", "src\Hassie.HassiumEngine\Hassie.HassiumEngine.csproj", "{0EEE049B-32A6-4391-968F-F20C7D66AA73}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hassie.HassiumEngine.Pong", "src\Hassie.HassiumEngine.Pong\Hassie.HassiumEngine.Pong.csproj", "{CD48D4C9-0E54-40C0-BF1E-7C1BD615EC6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hassie.HassiumEngine", "Hassie.HassiumEngine\Hassie.HassiumEngine.csproj", "{FC965B87-B73E-431A-A43A-CA86791DB5D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0EEE049B-32A6-4391-968F-F20C7D66AA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EEE049B-32A6-4391-968F-F20C7D66AA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EEE049B-32A6-4391-968F-F20C7D66AA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EEE049B-32A6-4391-968F-F20C7D66AA73}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD48D4C9-0E54-40C0-BF1E-7C1BD615EC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD48D4C9-0E54-40C0-BF1E-7C1BD615EC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD48D4C9-0E54-40C0-BF1E-7C1BD615EC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD48D4C9-0E54-40C0-BF1E-7C1BD615EC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AA164A-C68E-4954-B642-9DDDD2480052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AA164A-C68E-4954-B642-9DDDD2480052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AA164A-C68E-4954-B642-9DDDD2480052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AA164A-C68E-4954-B642-9DDDD2480052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC965B87-B73E-431A-A43A-CA86791DB5D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC965B87-B73E-431A-A43A-CA86791DB5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC965B87-B73E-431A-A43A-CA86791DB5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC965B87-B73E-431A-A43A-CA86791DB5D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{0EEE049B-32A6-4391-968F-F20C7D66AA73} = {D25E01E0-1162-4081-9977-80B6D610F048}
-		{CD48D4C9-0E54-40C0-BF1E-7C1BD615EC6A} = {D25E01E0-1162-4081-9977-80B6D610F048}
-	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {97FAE195-2B28-496C-836F-D4DB66D861E4}
+		SolutionGuid = {8D4FF952-6371-45C3-ADA2-E3543EAD1E2C}
 	EndGlobalSection
 EndGlobal
