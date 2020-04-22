@@ -21,6 +21,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Content\bin\**" />
+    <Compile Remove="Content\obj\**" />
+    <EmbeddedResource Remove="Content\bin\**" />
+    <EmbeddedResource Remove="Content\obj\**" />
+    <None Remove="Content\bin\**" />
+    <None Remove="Content\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Content\Exo-2-SemiBold.spritefont" />
+    <None Remove="Content\Exo2-SemiBold.ttf" />
+    <None Remove="Content\paddle.png" />
+    <None Remove="Content\square.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" Visible="false" />
   </ItemGroup>
 
